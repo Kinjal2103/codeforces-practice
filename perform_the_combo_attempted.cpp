@@ -39,7 +39,11 @@ int main(){
         fori(i,0,m){
             int pos=0;
             cin>>pos;
-            p[pos]++;
+            p[0]++;
+            p[pos]--;
+        }
+        fori(i,1,n){
+            p[i]+=p[i-1];
         }
         vi ans(26);
         fori(i,0,n){
