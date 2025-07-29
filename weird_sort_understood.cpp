@@ -1,21 +1,7 @@
 // Problem: https://codeforces.com/contest/1311/problem/B
-//Rating:1200
+// Rating:1200
 // Mistake: Thought of checking maximum and minimum ans seeing if they fit at the right place but figured that not the right approach
 // Learned: We actually swap the elements and then check
-
-#include <bits/stdc++.h>
-using namespace std;
-
-int main() {
-    int t; cin >> t;
-    while(t--) {
-        long long n;
-        cin >> n;
-        cout << 2*n + (n - 1) << "\n";
-    }
-    return 0;
-}
-
 
 #include <bits/stdc++.h>
 using namespace std;
